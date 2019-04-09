@@ -1,13 +1,10 @@
-console.log('Client side javascript file is loaded!')
-
-
 
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 messageOne = document.querySelector('#message-1')
 messageTwo = document.querySelector('#message-2')
 
-//messageOne.textContent = 'From JS'
+//messageOne.textContent = 'From JS' 
 
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
